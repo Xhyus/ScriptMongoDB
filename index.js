@@ -1,4 +1,5 @@
-import { MongoClient } from "mongodb";
+import mongo from "mongodb";
+const { MongoClient } = mongo;
 import process from "process";
 import { config } from "./config.js";
 import operations from "./dbOperations.js";
