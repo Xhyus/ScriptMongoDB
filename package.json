@@ -1,0 +1,28 @@
+{
+  "name": "script-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "find": "node index.js",
+    "findOne": "node index.js",
+    "insertOne": "node index.js",
+    "insertMany": "node index.js",
+    "updateOne": "node index.js",
+    "updateMany": "node index.js",
+    "deleteOne": "node index.js",
+    "deleteMany": "node index.js",
+    "aggregate": "node index.js",
+    "count": "node index.js",
+    "countDocuments": "node index.js",
+    "populate": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ignacio González",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.7.0",
+    "@faker-js/faker": "^7.6.0"
+  }
+}

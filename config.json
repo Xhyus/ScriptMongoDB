@@ -1,0 +1,9 @@
+{
+  "db": {
+    "url": "mongodb://",
+    "dbName": "",
+    "collection": "",
+    "options": {}
+  },
+  "populate": 1
+}
